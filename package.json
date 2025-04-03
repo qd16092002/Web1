@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "concurrently \"npm run start:be\" \"npm run start:fe\"",
+    "start:be": "cd Web1___BE && npm start",
+    "start:fe": "cd Web1___FE && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "dependencies": {
+    "@internationalized/date": "^3.7.0",
+    "@react-aria/i18n": "^3.12.7"
+  }
+}

@@ -1,0 +1,51 @@
+.app-sider {
+  
+    .ant-layout-sider-children {
+      background: var(--common-background) !important;
+      overflow-y: auto;
+  
+      &::-webkit-scrollbar {
+        display: none;
+      }
+  
+      .ant-menu {
+        background: var(--common-background) !important;
+      }
+    }
+  
+    &--logo {
+      width: 100%;
+      padding: 12px 8px 0px;
+      display: flex;
+      justify-content: center;
+  
+      img {
+        height: 50px;
+      }
+    }
+  
+    &--buttom {
+      margin-top: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .app-sider {
+      .ant-layout-sider-zero-width-trigger {
+        position: absolute;
+        inset-inline-end: -40px;
+        z-index: 1;
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #001529;
+        border-radius: 0 8px 8px 0;
+        cursor: pointer;
+        transition: background 0.3sease;
+      }
+    }
+  }

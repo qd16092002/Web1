@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+.navbar
+    width: 280px
+    height: 100vh
+    background-color: #21232A
+    padding: 24px 12px
+    display: grid
+    align-content: space-between
+    border: 1px solid #000000
+    .menu
+        display: grid
+        gap: 8px
+        align-content: flex-start
+        width: 100%
+        .items_active
+            height: 32px
+            border-radius: 6px
+            padding: 12px
+            display: flex
+            justify-content: flex-start
+            align-items: center
+            gap: 12px
+            background-color: #B1B3CE
+            font-family: Roboto
+            font-weight: 400
+            font-size: 14px
+            line-height: 100%
+            letter-spacing: 0%
+            color: #FFFFFF
+            cursor: pointer
+        .items_inactive
+            height: 32px
+            border-radius: 6px
+            padding: 12px
+            display: flex
+            justify-content: flex-start
+            align-items: center
+            gap: 12px
+            background-color: #ffffff00
+            font-family: Roboto
+            font-weight: 400
+            font-size: 14px
+            line-height: 100%
+            letter-spacing: 0%
+            color: #A3A3A3
+            cursor: pointer
+.footer_navbar
+    display: grid
+    gap: 12px
+    align-content: flex-start
+    .footer_navbar_line
+        height: 1px
+        width: 100%
+        background-color: #B1B3CE
+    .footer_navbar_content
+        display: flex
+        justify-content: space-between
+        align-items: center
+        gap: 12px
+        padding: 0px 24px
+        .footer_navbar_content_left
+            display: flex
+            justify-content: flex-start
+            align-items: center
+            gap: 12px
+            .footer_navbar_content_left_title
+                font-family: Roboto
+                font-weight: 400
+                font-size: 14px
+                line-height: 100%
+                letter-spacing: 0%
+                color: #FFFFFF
+                width: 130px
+                white-space: nowrap
+                overflow: hidden
+                text-overflow: ellipsis
+        .footer_navbar_content_right
+            cursor: pointer
+            height: 24px
+            width: 24px
+            display: flex
+            justify-content: center
+            align-items: center
+.navbar_logo
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    align-content: flex-start
+    .navbar_logo_image
+        width: 100px
+        height: 100px
+        margin: auto
